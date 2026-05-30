@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion'; // eslint-disable-line no-unused-vars
 import { Menu, LogOut, FileText, User, Sun, Moon } from 'lucide-react';
 import './Navbar.css';
 
@@ -74,7 +74,7 @@ export default function Navbar() {
         style={{ opacity, y }}
       >
         <div className="nav-brand">
-          <Link to="/">System.out</Link>
+          <Link to="/">Blog Platform</Link>
         </div>
         <div className="nav-links">
           <Link to="/" className="nav-link">Journal</Link>
