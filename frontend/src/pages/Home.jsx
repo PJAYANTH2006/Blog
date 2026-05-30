@@ -71,7 +71,7 @@ export default function Home() {
           transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="hero-subtitle">Vol. 01 — Computer Science</p>
-          <h1 className="hero-title">Algorithms,<br />Architecture & Theory.</h1>
+          <h1 className="hero-title">Algorithms,<br /> sai Jayanth pothala.</h1>
           
           {/* Elegant Search Container */}
           <div className="search-container">
